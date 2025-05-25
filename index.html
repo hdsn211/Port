@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="header">
+  <nav class="navbar">
+    <h1 class="logo">MyPortfolio</h1>
+    <ul class="nav-links">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <img src="HUDSON.png" alt="Profile Picture" class="profile-pic" />
+  <h2>Hello, I'm Hudson Davie Gacer</h2>
+  <p></p>
+  <a href="#projects" class="btn">See My Projects</a>
+</section>
+
+<section id="about">
+  <h2>About Me</h2>
+  <img src="HUDSON.png" alt="My Profile Picture" class="profile-pic" />
+  <p>Learning QA and backend development to help create better, more reliable software.</p>
+  <h3>Skills</h3>
+  <ul>
+    <li>HTML5 & CSS</li>
+    <li>Java</li>
+    <li>Responsive Design</li>
+    <li>UI/UX Design</li>
+  </ul>
+  <h3>Interests</h3>
+  <p>I enjoy eating, lifting weights, drawing, and exploring new tech trends.</p>
+</section>
+
+<section id="projects">
+  <h2>My Projects</h2>
+  <div class="project-item">
+    <h3>Average Grade Calculator</h3>
+    <img src="calculator-icon-free-vector.jpg" alt="Project 1 screenshot" class="project-img" />
+    <p>This is a school project, it calculates the average grade of students.</p>
+    <p><strong>Lanuage used:</strong>Java</p>
+    <p><a href="https://github.com/hdsn211/GradeAverageCalculator" target="_blank">View on GitHub</a></p>
+  </div>
+  <div class="project-item">
+    <h3>Quiz App</h3>
+    <img src="quiz-guess-social-media-icon-in-flat-style-faq-illustration-on-isolated-background-help-button-sign-business-concept-vector.jpg" alt="Project 2 screenshot" class="project-img" />
+    <p>Brief description of project 2.</p>
+    <p><strong>Language used:</strong>Java</p>
+    <p><a href="https://github.com/hdsn211/QuizApp" target="_blank">View codes on GitHub</a></p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form class="contact-form" action="mail to" method="POST" enctype="text/plain">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required />
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required />
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit">Send</button>
+  </form>
+  <p>Or email me at <a href="mail to">hudson.gacer@jmc.edu.ph</a></p>
+  <p>
+    Find me on
+    <a href="https://github.com/hdsn211" target="_blank">GitHub</a>
+  </p>
+</section>
+
+<section id="resume">
+  <h2>Resume</h2>
+  <p>Download my resume here:</p>
+  <a href="HudsonCV.pdf" class="btn" download>Download Resume (PDF)</a>
+</section>
+
+<footer class="footer">
+  <p></p>
+</footer>
+
+</body>
+</html>
